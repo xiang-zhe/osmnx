@@ -1,0 +1,7 @@
+win:
+  使用condaanzhuang：
+    conda install -c conda-forge osmnx 
+    
+  issue1：Cannot import name 'CRS' from 'pyproj'
+    版本问题，升级pyproj为2.4，pip install pyproj == 2.4
+    升级shapely为1.7，pip install shapely == 1.7
